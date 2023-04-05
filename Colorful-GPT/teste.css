@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+}
+
+/* pag inicial */
+.flex.flex-col.items-center.text-sm {
+  background-color: #462A55;
+}
+
+/* sidebar */
+nav {
+  background-color: #64387B;
+}
+
+/* chats */
+nav div.flex-col a {
+  background-color: #472957;
+}
+
+/* chats */
+nav div.flex-col a:hover {
+  background-color: #543267;
+}
+
+/* users message */
+.group.w-full.border-b {
+  background-color: #392145;
+}
+
+/* chatGPT message */
+.group.w-full.border-b.bg-gray-50 {
+  background-color: #472957;
+}
+
+
+
+/* background colors (same as user's messages) */
+body, html {
+  background-color: #392145;
+}
+
+#__next > div.overflow-hidden.w-full.h-full.relative.flex > div.flex.h-full.flex-1.flex-col > main > div.flex-1.overflow-hidden > div > div {
+  background-color: #392145;
+}

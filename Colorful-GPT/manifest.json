@@ -1,0 +1,28 @@
+{
+  "name": "Inject MV3 (Content Script)",
+  "version": "0.01",
+  "description": "-",
+
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["teste.css"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": ["activeTab"],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  
+
+  "host_permissions": ["https://chat.openai.com/*"],
+  
+  "manifest_version": 3
+
+
+}
