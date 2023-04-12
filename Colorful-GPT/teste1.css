@@ -1,0 +1,44 @@
+
+/* text color */  /* icons */
+.text-white, span, h1, h2, h3, h4, h5, h6, a, p, button, div, svg {
+    --tw-text-opacity: 1;
+    color: rgb(240, 240, 240) !important;
+}
+
+
+/* input bar */  /* button (regenerate response) */  /* chats - hover */
+#__next > div.overflow-hidden.w-full.h-full.relative.flex > div.flex.h-full.flex-1.flex-col > main > div.absolute.bottom-0.left-0.w-full.border-t.md\:border-t-0.dark\:border-white\/20.md\:border-transparent.md\:dark\:border-transparent.md\:bg-vert-light-gradient.bg-white.dark\:bg-gray-800.md\:\!bg-transparent.dark\:md\:bg-vert-dark-gradient.pt-2 > form > div > div.flex.flex-col.w-full.py-2.flex-grow.md\:py-3.md\:pl-4.relative.border.border-black\/10.bg-white.dark\:border-gray-900\/50.dark\:text-white.dark\:bg-gray-700.rounded-md.shadow-\[0_0_10px_rgba\(0\,0\,0\,0\.10\)\].dark\:shadow-\[0_0_15px_rgba\(0\,0\,0\,0\.10\)\], #__next > div.overflow-hidden.w-full.h-full.relative.flex > div.flex.h-full.flex-1.flex-col > main > div.absolute.bottom-0.left-0.w-full.border-t.md\:border-t-0.dark\:border-white\/20.md\:border-transparent.md\:dark\:border-transparent.md\:bg-vert-light-gradient.bg-white.dark\:bg-gray-800.md\:\!bg-transparent.dark\:md\:bg-vert-dark-gradient.pt-2 > form > div > div.flex.ml-1.md\:w-full.md\:m-auto.md\:mb-2.gap-0.md\:gap-2.justify-center > button, nav div.flex-col a:hover {
+    background-color: #990000; 
+}
+
+
+/* buttons (new chat page) */  /* chats */  /* chatGPT message */
+div div div div ul button, div div ul li, nav div.flex-col a, .group.w-full.border-b.bg-gray-50 {
+    background-color: #800000 !important;
+}
+
+
+/* buttons hover (new chat page) */
+div div div div ul button:hover {
+    background-color: #990000 !important;
+}
+
+
+/* sidebar */
+nav {
+    background-color: #4d0000;
+}
+
+
+/* users message */  /* background colors (same as user's messages) */  /* new chat page */  /* chats - pressed */
+.group.w-full.border-b, .flex.flex-col.items-center.text-sm, body, html, #__next > div.overflow-hidden.w-full.h-full.relative.flex > div.flex.h-full.flex-1.flex-col > main > div.flex-1.overflow-hidden > div > div, #__next > div.overflow-hidden.w-full.h-full.relative.flex > div.dark.hidden.bg-gray-900.md\:flex.md\:w-\[260px\].md\:flex-col > div > div > nav > div > div > a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.cursor-pointer.break-all.pr-14.bg-gray-800.hover\:bg-gray-800.group {
+    background-color: #660000 !important;
+}
+
+
+/* footer */
+#__next > div.overflow-hidden.w-full.h-full.relative.flex > div.flex.h-full.flex-1.flex-col > main > div.absolute.bottom-0.left-0.w-full.border-t.md\:border-t-0.dark\:border-white\/20.md\:border-transparent.md\:dark\:border-transparent.md\:bg-vert-light-gradient.bg-white.dark\:bg-gray-800.md\:\!bg-transparent.dark\:md\:bg-vert-dark-gradient.pt-2 {
+    background-image: linear-gradient(180deg,rgba(53,55,64,0),#660000 58.85%);
+}
+    
+    
