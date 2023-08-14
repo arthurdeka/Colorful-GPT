@@ -97,40 +97,45 @@ button:hover {
     cursor: pointer;
 }
 
-#button-estilo-1 {
+#button-style-1 {
     background: linear-gradient(to right, #F7BAC0 0%, #F7BAC0 25%, #CE6F78 25%, #CE6F78 50%, #750E18 50%, #750E18 75%, #490007 75%, #490007 100%);
 }
 
-#button-estilo-2 {
+#button-style-2 {
     background: linear-gradient(to right, #B89A82 0%, #B89A82 25%, #80654F 25%, #80654F 50%, #442710 50%, #442710 75%, #220F00 75%, #220F00 100%);
 }
 
-#button-estilo-3 {
+#button-style-3 {
     background: linear-gradient(to right, #9A9ABF 0%, #9A9ABF 25%, #63639C 25%, #63639C 50%, #39397C 50%, #39397C 75%, #07073A 75%, #07073A 100%);
 }
 
 
-#button-estilo-4 {
+#button-style-4 {
     background: linear-gradient(to right, #4C8762 0%, #4C8762 25%, #2C6642 25%, #2C6642 50%, #125029 50%, #125029 75%, #002C10 75%, #002C10 100%);
 }
 
-#button-estilo-5 {
+#button-style-5 {
     background: linear-gradient(to right, #9A8AB3 0%, #9A8AB3 25%, #6C5491 25%, #6C5491 50%, #2A1052 50%, #2A1052 75%, #160333 75%, #160333 100%);
 }
 
-#button-estilo-6 {
+#button-style-6 {
     background: linear-gradient(to right, #BDBD5B 0%, #BDBD5B 25%, #96962E 25%, #96962E 50%, #636308 50%, #636308 75%, #363600 75%, #363600 100%);
 }
 
 
-#button-estilo-7 {
+#button-style-7 {
     background: linear-gradient(to right, #D38A49 0%, #D38A49 25%, #B1641F 25%, #B1641F 50%, #894202 50%, #894202 75%, #552800 75%, #552800 100%);
 }
 
-#button-estilo-8 {
+#button-style-8 {
     background: linear-gradient(to right, #664c51 0%, #664c51 25%, #4c393c 25%, #4c393c 50%, #332628 50%, #332628 75%, #191314 75%, #191314 100%);
 }
 
-#button-estilo-9 {
+#button-style-9 {
     background: linear-gradient(to right, #2B5773 0%, #2B5773 25%, #16415D 25%, #16415D 50%, #052941 50%, #052941 75%, #021420 75%, #021420 100%);
+}
+
+#remove-theme {
+    background-image: url(img/none.png);
+    background-size:100% 100%;
 }

@@ -10,38 +10,42 @@ function applyTheme(theme) {
 }
 
 // popup.html button's event listeners
-document.getElementById('button-estilo-1').addEventListener('click', function () {
+document.getElementById('button-style-1').addEventListener('click', function () {
   applyTheme('sty_red')
 });
 
-document.getElementById('button-estilo-2').addEventListener('click', function () {
+document.getElementById('button-style-2').addEventListener('click', function () {
   applyTheme('sty_brown')
 });
-
-document.getElementById('button-estilo-3').addEventListener('click', function () {
+/* 
+document.getElementById('button-style-3').addEventListener('click', function () {
   applyTheme('sty_blue')
 });
-
-document.getElementById('button-estilo-4').addEventListener('click', function () {
+ */
+document.getElementById('button-style-4').addEventListener('click', function () {
   applyTheme('sty_green')
 });
 
-document.getElementById('button-estilo-5').addEventListener('click', function () {
+document.getElementById('button-style-5').addEventListener('click', function () {
   applyTheme('sty_purple')
 });
 
-document.getElementById('button-estilo-6').addEventListener('click', function () {
+document.getElementById('button-style-6').addEventListener('click', function () {
   applyTheme('sty_yellow')
 });
 
-document.getElementById('button-estilo-7').addEventListener('click', function () {
+document.getElementById('button-style-7').addEventListener('click', function () {
   applyTheme('sty_orange')
 });
 
-document.getElementById('button-estilo-8').addEventListener('click', function () {
+document.getElementById('button-style-8').addEventListener('click', function () {
   applyTheme('sty_pink')
 });
 
-document.getElementById('button-estilo-9').addEventListener('click', function () {
+document.getElementById('button-style-9').addEventListener('click', function () {
   applyTheme('sty_cyan')
+});
+
+document.getElementById('remove-theme').addEventListener('click', function () {
+  applyTheme('none')
 });
