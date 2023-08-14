@@ -94,6 +94,7 @@ h1 {
 /* gradient of each menu button */
 button:hover {
     filter: brightness(120%); /* Aplica um filtro de brilho para escurecer em 20% */
+    cursor: pointer;
 }
 
 #button-estilo-1 {
