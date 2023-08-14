@@ -1,0 +1,135 @@
+body {
+    min-width: 275px;
+    height: auto;
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 8px;
+}
+
+h1 {
+    width: 100%;
+
+    font-family: 'Segoe UI Mono', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+    text-align: center;
+}
+
+.FlexContainer {
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    width: 100%;
+    height: 100%;
+
+    flex-direction: row;
+}
+
+.FlexContainer button {
+    width: 78px;
+    height: 35px;
+
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+
+    border: 1px solid rgb(48, 48, 48);
+
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+    font-family: 'Segoe UI Mono', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+
+}
+
+
+#contribute {
+    width: 90%;
+    height: 32px;
+    
+    margin: auto;
+
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+
+    background-image: url(img/github.png);
+    background-size:100% 100%;
+
+    background-color: #16415D;
+}
+
+/* #aboutme {
+    width: 90%;
+    height: 32px;
+    
+    margin: auto;
+
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+
+    background-image: url(img/aboutme.png);
+    background-size:100% 100%;
+
+    background-color: #16415D;
+}
+ */
+ 
+/* gradient of each menu button */
+button:hover {
+    filter: brightness(120%); /* Aplica um filtro de brilho para escurecer em 20% */
+}
+
+#button-estilo-1 {
+    background: linear-gradient(to right, #F7BAC0 0%, #F7BAC0 25%, #CE6F78 25%, #CE6F78 50%, #750E18 50%, #750E18 75%, #490007 75%, #490007 100%);
+}
+
+#button-estilo-2 {
+    background: linear-gradient(to right, #B89A82 0%, #B89A82 25%, #80654F 25%, #80654F 50%, #442710 50%, #442710 75%, #220F00 75%, #220F00 100%);
+}
+
+#button-estilo-3 {
+    background: linear-gradient(to right, #9A9ABF 0%, #9A9ABF 25%, #63639C 25%, #63639C 50%, #39397C 50%, #39397C 75%, #07073A 75%, #07073A 100%);
+}
+
+
+#button-estilo-4 {
+    background: linear-gradient(to right, #4C8762 0%, #4C8762 25%, #2C6642 25%, #2C6642 50%, #125029 50%, #125029 75%, #002C10 75%, #002C10 100%);
+}
+
+#button-estilo-5 {
+    background: linear-gradient(to right, #9A8AB3 0%, #9A8AB3 25%, #6C5491 25%, #6C5491 50%, #2A1052 50%, #2A1052 75%, #160333 75%, #160333 100%);
+}
+
+#button-estilo-6 {
+    background: linear-gradient(to right, #BDBD5B 0%, #BDBD5B 25%, #96962E 25%, #96962E 50%, #636308 50%, #636308 75%, #363600 75%, #363600 100%);
+}
+
+
+#button-estilo-7 {
+    background: linear-gradient(to right, #D38A49 0%, #D38A49 25%, #B1641F 25%, #B1641F 50%, #894202 50%, #894202 75%, #552800 75%, #552800 100%);
+}
+
+#button-estilo-8 {
+    background: linear-gradient(to right, #A83A7A 0%, #A83A7A 25%, #8D195D 25%, #8D195D 50%, #6D0240 50%, #6D0240 75%, #440028 75%, #440028 100%);
+}
+
+#button-estilo-9 {
+    background: linear-gradient(to right, #2B5773 0%, #2B5773 25%, #16415D 25%, #16415D 50%, #052941 50%, #052941 75%, #021420 75%, #021420 100%);
+}
