@@ -90,7 +90,7 @@ h1 {
     background-color: #16415D;
 }
  */
- 
+
 /* gradient of each menu button */
 button:hover {
     filter: brightness(120%); /* Aplica um filtro de brilho para escurecer em 20% */
