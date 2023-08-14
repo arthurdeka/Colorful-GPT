@@ -19,17 +19,23 @@ function readCurrentColor() {
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
     //verifies if the page was updated (changeInfo.status === 'complete') and if the tab is active (tab.active).
     //verifies if the tab's URL doesn't start with 'chrome://' to avoid Chrome's internal pages
-    if (changeInfo.status === 'complete' && tab.active && !tab.url.startsWith('chrome://')) {
+    if (changeInfo.status === 'complete' && tab.active && !tab.url.startsWith('chrome://') && !tab.url.startsWith('edge://')) {
         //applies CSS for themes
 
         // get the current color value in the app's settings
         let current_color = await readCurrentColor();
         current_color = current_color.current_color;
         //applies CSS of the current_color
-        chrome.scripting.insertCSS({
-            target: { tabId: tab.id },
-            files: [`app/${current_color}.css`],
-        });
-        
+        try {
+            chrome.scripting.insertCSS({
+                target: { tabId: tab.id },
+                files: [`app/${current_color}.css`],
+            });
+        } catch (error) {
+            // happens when current_color is none
+        }
+
+
     }
 });
+
