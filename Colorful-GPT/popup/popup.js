@@ -1,12 +1,19 @@
-document.getElementById('apply-teste1').addEventListener('click', function () {
-  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    chrome.runtime.sendMessage({action: 'getURL', tabId: tab.id});
-    chrome.scripting.insertCSS({ target: { tabId: tabs[0].id }, files: ['teste1.css'] });
+//apply theme function
+function applyTheme(theme) {
+  const extensionConfigs = {
+    current_color: theme
+  }
+  chrome.storage.sync.set({'colorfulGPTconfigs': JSON.stringify(extensionConfigs)}, function() {
+      console.log(`ColorfulGPT - ${extensionConfigs.current_color} theme set`);
   });
+  
+}
+
+// popup.html button's event listeners
+document.getElementById('button-estilo-1').addEventListener('click', function () {
+  applyTheme('sty_cyan')
 });
 
-document.getElementById('apply-teste2').addEventListener('click', function () {
-  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    chrome.scripting.insertCSS({ target: { tabId: tabs[0].id }, files: ['teste2.css'] });
-  });
+document.getElementById('button-estilo-2').addEventListener('click', function () {
+  applyTheme('sty_purple')
 });

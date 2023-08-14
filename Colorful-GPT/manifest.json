@@ -3,7 +3,7 @@
   "name": "CSS Switcher",
   "version": "1.0",
   "description": "Aplica folhas de estilo diferentes no site https://chat.openai.com/chat",
-  "permissions": [ "scripting", "tabs" ],
+  "permissions": [ "scripting", "tabs", "storage" ],
   "action": {
     "default_popup": "popup/popup.html"
   },
