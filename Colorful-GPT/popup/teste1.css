@@ -14,7 +14,7 @@
 
 /* buttons (new chat page) */  /* chats */  /* chatGPT message */
 div div div div ul button, div div ul li, nav div.flex-col a, .group.w-full.border-b.bg-gray-50 {
-    background-color: #800000 !important;
+    background-color: #b13434 !important;
 }
 
 
