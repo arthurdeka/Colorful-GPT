@@ -1,9 +1,9 @@
 :root {
     /* Color brightness organized from top to bottom, ligther to darker color */
-    --color-gpt-messages: #9A8AB3;
-    --color-primary: #6C5491;
-    --color-sidebar: #2A1052;
-    --color-primary-darker: #160333;
+    --color-gpt-messages: #360A90;
+    --color-primary: #28086A;
+    --color-sidebar: #140436;
+    --color-primary-darker: #12052C;
 
 }
 
