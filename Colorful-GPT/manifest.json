@@ -8,7 +8,6 @@
     "48": "logo/icon48.png"
   },
   "description": "Changes the color theme on ChatGPT's website",
-  "default_locale": "en",
   "permissions": [ "scripting", "tabs", "storage" ],
   "action": {
     "default_popup": "popup/popup.html"
