@@ -4,4 +4,4 @@
 // Several foreground scripts can be declared
 // and injected into the same or different pages.
 
-console.log('ColorfulGPT is enabled!');
+console.log("ColorfulGPT is enabled!");

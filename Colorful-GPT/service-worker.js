@@ -26,8 +26,18 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
     // get the current color value in the app's settings
     let current_color = await readCurrentColor();
     current_color = current_color.current_color;
-    //applies CSS of the current_color
+    //applies CSS of the current_color & Script to force dark mode
     if (current_color !== "none") {
+      // Inject code to force dark mode (for better experience)
+      chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        function: function () {
+          document.body.classList.add("dark");
+          document.documentElement.style.setProperty("color-scheme", "dark");
+          document.documentElement.classList.add("dark");
+        },
+      });
+      /* applies theme color stored */
       chrome.scripting.insertCSS({
         target: { tabId: tab.id },
         files: [`app/${current_color}.css`],

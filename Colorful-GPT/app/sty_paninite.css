@@ -1,0 +1,15 @@
+* {
+    /* Color brightness organized from top to bottom, ligther to darker color */
+    --gray-50: rgb(253 242 248) !important;
+    --gray-100: rgb(252 231 243) !important;
+    --gray-200: rgb(251 207 232) !important;
+    --gray-300: rgb(249 168 212) !important;
+    --gray-400: rgb(244 114 182) !important;
+    --gray-500: rgb(236 72 153) !important;
+    --gray-600: rgb(219 39 119) !important;
+    --gray-700: rgb(190 24 93) !important;
+    --gray-800: rgb(157 23 77) !important;
+    --gray-900: rgb(131 24 67) !important;
+    --gray-950: rgb(80 7 36) !important;
+  }
+  
