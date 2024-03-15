@@ -11,6 +11,7 @@ function applyTheme(theme) {
       console.log(`ColorfulGPT - ${extensionConfigs.current_color} theme set`);
     }
   );
+  /* reload page when theme is applied */
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     chrome.tabs.reload(tabs[0].id);
   });

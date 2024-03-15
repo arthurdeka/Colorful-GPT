@@ -10,8 +10,12 @@
 
   </head>
 
-  <body class="w-80 p-4 bg-gray-700">
-    <h1 class="text-xl text-white font-bold">Select a Color Theme for ChatGPT!</h1>
+  <body class="w-80 p-4 bg-gray-700 items-center">
+    <!-- title and logo -->
+    <div class="flex align-center place-items-center">
+      <img class="w-14 m-2" src="./../logo/icon128.png" alt="ColorfulGPT Logo">
+      <h1 class="text-xl ml-2 text-white font-bold ">Select a Color Theme for ChatGPT!</h1>
+    </div>
 
     <!-- selection menu -->
     <section class="grid mt-4 grid-cols-3 gap-4">
@@ -42,6 +46,7 @@
       >
         Purple
       </button>
+
       <button
       class="px-4 py-1 rounded-md text-white font-semibold bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300"
         id="button-style-yellow"
@@ -55,12 +60,14 @@
       >
         Orange
       </button>
+
       <button
         class="px-4 py-1 rounded-md text-white font-semibold bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300"
         id="button-style-paninite"
       >
         Paninite
       </button>
+
       <button
         class="px-4 py-1 rounded-md text-white font-semibold bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300"
         id="button-style-cyan"
@@ -68,6 +75,7 @@
         Cyan
       </button>
 
+      <!-- none theme button -->
       <button class="px-4 py-1 text-white rounded-md font-semibold border-2 border-red-400" id="remove-theme">None</button>
 
     </section>
