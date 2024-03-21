@@ -10,5 +10,5 @@ Feel free to also make contributions to this README.
 Also, i will put your user (or name, if you want to) in the extension's description at google chrome web store. Do not make 1-line alteration commits just to get it, it won't work. 
 ___
 # Where can i find it?
-In the [Chrome Web Store](https://chromewebstore.google.com/detail/gllpahblfeolhjjdpiljniklgdpkhdne?hl=pt-br) and in the Microsoft Edge Addons (temporarially removed due to problems with the extension's icon).
-
+*  [Chrome Web Store](https://chromewebstore.google.com/detail/gllpahblfeolhjjdpiljniklgdpkhdne?hl=pt-br) 
+*  [Microsoft Edge Store](https://microsoftedge.microsoft.com/addons/detail/colorfulgpt/gghjfmnkakammickmapalogabloffkkj) 
